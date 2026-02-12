@@ -161,3 +161,6 @@ cython_debug/
 
 # apple
 .DS_Store
+
+# vs code
+.vscode
