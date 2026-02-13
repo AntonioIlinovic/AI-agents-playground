@@ -58,6 +58,13 @@ def write_email_draft(recipient_email: str, subject: str, body: str) -> dict:
         - Gmail API credentials to be properly configured
         - USER_EMAIL environment variable to be set with the sender's email address
         - Appropriate Gmail API permissions for creating drafts
+        
+    Recommendation:
+        Before calling this tool, consider using MCP resources and prompts to enhance the email:
+        - Use 'directory://all' resource to fetch contact information and verify recipient details
+        - Use 'email-examples://3-way-intro' or 'email-examples://call-follow-up' resources for email templates
+        - Use the 'ava' prompt with appropriate user context to help generate or filter body content
+        - This ensures more personalized and contextually appropriate email drafts
     """
     try:
         # create gmail api client
