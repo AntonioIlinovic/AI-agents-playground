@@ -1,0 +1,7 @@
+Subject: Meet John and Peter
+
+Can you make an introduction between John and Peter?
+
+John is a back-end developer and Peter is a front-end developer.
+John is interested in AI and wants to learn more about it.
+Peter is interested in AI and wants to learn more about it.

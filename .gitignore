@@ -164,3 +164,7 @@ cython_debug/
 
 # vs code
 .vscode
+
+# google credentials
+token.json
+credentials.json
